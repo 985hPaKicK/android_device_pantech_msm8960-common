@@ -122,30 +122,6 @@ PRODUCT_PACKAGES += \
     make_ext4fs \
     setup_fs
 
-# Jellybean Adreno firmware
-PRODUCT_COPY_FILES += \
-    device/pantech/msm8960-common/firmware/a225p5_pm4.fw:/system/etc/firmware/a225p5_pm4.fw \
-    device/pantech/msm8960-common/firmware/a225_pfp.fw:/system/etc/firmware/a225_pfp.fw \
-    device/pantech/msm8960-common/firmware/a225_pm4.fw:/system/etc/firmware/a225_pm4.fw \
-    device/pantech/msm8960-common/firmware/leia_pfp_470.fw:/system/etc/firmware/leia_pfp_470.fw \
-    device/pantech/msm8960-common/firmware/leia_pm4_470.fw:/system/etc/firmware/leia_pm4_470.fw \
-    device/pantech/msm8960-common/firmware/yamato_pfp.fw:/system/etc/firmware/yamato_pfp.fw \
-    device/pantech/msm8960-common/firmware/yamato_pm4.fw:/system/etc/firmware/yamato_pm4.fw
-
-# Jellybean Adreno libs
-PRODUCT_COPY_FILES += \
-    device/pantech/msm8960-common/jb_libs/lib/libc2d2_z180.so:/system/lib/libc2d2_z180.so \
-    device/pantech/msm8960-common/jb_libs/lib/libC2D2.so:/system/lib/libC2D2.so \
-    device/pantech/msm8960-common/jb_libs/lib/libgsl.so:/system/lib/libgsl.so \
-    device/pantech/msm8960-common/jb_libs/lib/libOpenVG.so:/system/lib/libOpenVG.so \
-    device/pantech/msm8960-common/jb_libs/lib/libsc-a2xx.so:/system/lib/libsc-a2xx.so \
-    device/pantech/msm8960-common/jb_libs/egl/eglsubAndroid.so:/system/lib/egl/eglsubAndroid.so \
-    device/pantech/msm8960-common/jb_libs/egl/libEGL_adreno200.so:/system/lib/egl/libEGL_adreno200.so \
-    device/pantech/msm8960-common/jb_libs/egl/libGLESv1_CM_adreno200.so:/system/lib/egl/libGLESv1_CM_adreno200.so \
-    device/pantech/msm8960-common/jb_libs/egl/libGLESv2_adreno200.so:/system/lib/egl/libGLESv2_adreno200.so \
-    device/pantech/msm8960-common/jb_libs/egl/libGLESv2S3D_adreno200.so:/system/lib/egl/libGLESv2S3D_adreno200.so \
-    device/pantech/msm8960-common/jb_libs/egl/libq3dtools_adreno200.so:/system/lib/egl/libq3dtools_adreno200.so
-
 # KoreanIME
 PRODUCT_COPY_FILES += \
     device/pantech/msm8960-common/prebuilt/KoreanIME.apk:/system/app/LatinIME.apk \
